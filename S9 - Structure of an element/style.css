@@ -1,0 +1,116 @@
+h1 {
+  display: inline-block;
+  background-color: beige;
+  color: blueviolet;
+  font-size: 43px;
+  border: 2px dotted #d1d1d1;
+  border-radius: 12px;
+  font-family: "Lora", serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  display: inline-block;
+  background-color: aliceblue;
+  font-size: 1.25rem;
+  padding: 10px;
+  color: deeppink;
+}
+
+#subHeading1 {
+  border: 7px dotted brown;
+}
+
+#subHeading2 {
+  border: 7px dashed black;
+  margin-left: 20px;
+}
+
+#subHeading3 {
+  border: 7px solid cornflowerblue;
+  margin-left: 20px;
+}
+
+#subHeading4 {
+  border: 7px double darkcyan;
+}
+
+#subHeading5 {
+  border: 7px groove darkkhaki;
+  margin-left: 20px;
+}
+
+#subHeading6 {
+  border: 7px ridge darkturquoise;
+  margin-left: 20px;
+}
+
+#subHeading7 {
+  border: 7px inset fuchsia;
+}
+
+#subHeading8 {
+  border: 7px outset greenyellow;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  background-color: indigo;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  font-size: 17px;
+}
+
+.button1 {
+  text-align: center;
+}
+
+.mainHeading {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  justify-content: space-between;
+  opacity: 0.9;
+  transition: transform 0.3s;
+  border: 20px groove plum;
+  background-color: lightgoldenrodyellow;
+  margin: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.grid {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  width: 100%; /* Full width of the grid */
+  display: grid; /* Use grid for layout */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  justify-content: space-between; /* Distribute space evenly */
+}
+
+.button2 {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+#WB1 {
+  box-sizing: border-box;
+  width: 300px;
+}
+
+#WB2 {
+  box-sizing: content-box;
+  width: 300px;
+}
